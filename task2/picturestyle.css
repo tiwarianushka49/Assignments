@@ -1,0 +1,26 @@
+.news-image{
+    width: 900px;
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners */
+    display: block;
+    margin: 20px auto; 
+}
+body
+ {
+    background-color: lightyellow;
+ }
+h2{
+    font-size: 80px;
+}
+h3{
+    font-size: 45px;
+}
+p{
+    font-size: 24px;
+    line-height: 1.8em;
+}
+a 
+{
+    font-size: 25px;
+}
+  
