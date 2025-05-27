@@ -1,8 +1,11 @@
 p{
     text-align: justify;
+    font: italic small-caps bold 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h3{
     color: rgb(255, 0, 102);
   text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
 
 }
+
+  
