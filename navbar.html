@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Navigation Bars</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background: #fff;
+    }
+
+    .task-header {
+      background-color: #2c5e1a;
+      color: white;
+      padding: 10px 20px;
+      font-weight: bold;
+      display: inline-block;
+      clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+    }
+
+    .nav-section {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    /* Vertical Navbar */
+    .vertical-nav {
+      border: 1px solid #ccc;
+      width: 180px;
+    }
+
+    .vertical-nav a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .vertical-nav a:first-child {
+      background-color: orange;
+      color: white;
+    }
+
+    .vertical-nav a:not(:first-child) {
+      background-color: #d6f2ff;
+      color: #004080;
+    }
+
+    .vertical-nav a:hover {
+      background-color: #aee3ff;
+    }
+
+    /* Horizontal Navbar */
+    .horizontal-nav {
+      border: 1px solid #ccc;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .horizontal-nav a {
+      padding: 8px 16px;
+      text-decoration: none;
+      color: #444;
+      border-right: 1px solid #bbb;
+      font-weight: bold;
+    }
+
+    .horizontal-nav a:first-child {
+      background-color: #e0e0e0;
+    }
+
+    .horizontal-nav a:not(:first-child) {
+      color: blue;
+    }
+
+    .horizontal-nav a:last-child {
+      border-right: none;
+    }
+
+    .horizontal-nav a:hover {
+      background-color: #f0f0f0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="task-header">Task</div>
+
+  <div class="nav-section">
+    <!-- Vertical Navigation -->
+    <div>
+      <h3>Vertical Navigation Bar</h3>
+      <div class="vertical-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+      </div>
+    </div>
+
+    <!-- Horizontal Navigation -->
+    <div>
+      <h3>Horizontal Navigation Bar</h3>
+      <div class="horizontal-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
